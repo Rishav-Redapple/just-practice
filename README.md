@@ -1,0 +1,23 @@
+# I tried to implement N-gram model and TF-IDF in this practice project
+
+This project is made with Elysia and HTMX, HyperScript. The algorithms are in `src/alog/` directory.
+
+# Elysia with Bun runtime
+
+## Getting Started
+
+To get started with this template, simply paste this command into your terminal:
+
+```bash
+bun create elysia ./elysia-example
+```
+
+## Development
+
+To start the development server run:
+
+```bash
+bun run dev
+```
+
+Open http://localhost:3000/ with your browser to see the result.
