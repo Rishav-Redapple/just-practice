@@ -8,7 +8,7 @@ export function TFIDF(documents: string[]) {
 
     /**
      * to get the tf-idf of a document, we simply print the dot product
-     * of each tf and idf
+     * of each word
      */
     for (const word in tf) {
       tfIdfDoc[word] = tf[word] * (idf[word] || 0);
